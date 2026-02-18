@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(29, 124, 124, 0.768);
+}
+
+.head{
+    text-align: center;   
+    color: rgb(0, 0, 0);
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+}   
+
+.img{
+   width: auto;
+    height: 160px;
+    border-radius: 12px  
+}
+
+.title{
+    border: 2px solid rgb(15, 19, 26);
+    border-radius: 8px;
+    padding: 5px;
+    text-align:center;
+    background-color:  rgb(146, 203, 172);
+}   
+
+.point{
+    color:rgb(190, 255, 219)
+    
+}
+
+.date{
+    margin-right: 250px;
+    color: rgb(0, 0, 0);
+}
+
+#text{
+    color: rgb(0, 0, 0);
+}
+
+.table-style{
+    border-collapse: collapse;
+    min-width: 1200px;
+    margin: auto;
+    border: 1px solid rgb(11, 11, 15);
+    border-radius: 5px;
+}   
+
+tr th{
+    text-align: center;
+}
+ 
+tbody tr{
+    text-align: center;
+}
+
+th, td{
+    padding: 15px 20px;
+}
+
+thead tr th, tbody tr td{
+    border: 2px solid #0a0a0a;
+}
+
+
+
+
+
+ 
