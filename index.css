@@ -1,0 +1,28 @@
+p{
+  color:black;
+}
+  
+h1,h2,h3,h4{
+  color:blue;
+}
+li{
+ margin-bottom: 10px;
+}
+ 
+body{
+  background:aqua;
+}
+h4{
+  margin-left:20px;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10% 10% ;
+}
+.image_position{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}

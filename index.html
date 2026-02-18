@@ -1,249 +1,57 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<title>CV - Lavany Felicie NOMENJANAHARY</title>
+<html>
 
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <title>mon projet</title>
+  </head>
 
-<style>
-:root {
-    --bg-gradient: linear-gradient(145deg, #fbe8d3, #f8d1c1);
-    --card-bg: #fff9f2;
-    --text-color: #4b3621;
-    --title-color: #8b5e3c;
-    --accent-color: #d9a066;
-    --pill-bg: #f4e1d2;
-    --pill-hover: #e8c9a0;
-    --shadow: rgba(0,0,0,0.12);
-}
+  <body>
+    <h1><i>Curiculum Vitae</i></h1>
 
-/* Reset */
-* { margin:0; padding:0; box-sizing: border-box; }
+    <div class="image_position">
+      <div>
+        <h4>informations personnelle</h4>
+        <p><span><b>NOM: </b> </span>AVOTRINIAINA</p>
+        <P><span><b>PRENOMS: </b></span>Tolojanahary Njarasoa Augustin</P>
+        <p><span><b>Adresse email: </b></span>samuelrand1706th@gmail.com</p>
+        <p><span><b>Numéro de téléphone: </b></span>0383207567</p>
+      </div>
+      <div>
+         <img src="image_cv.jpg" alt="">
+      </div>
+    </div>
 
-body {
-    font-family: 'Inter', sans-serif;
-    background: var(--bg-gradient);
-    color: var(--text-color);
-    line-height: 1.6;
-    display: flex;
-    justify-content: center;
-    padding: 30px 15px;
-}
+    <h4>Formation</h4>
+    <ul type="square">
+      <li><u>Année 2017-2018</u>: diplóme  en CEPE</li>
+      <li><u>Année 2021</u>:diplôme en BEPC</li>
+      <li><u> 2024-2025</u>:diplôme en baccalauréat</>
+      <li><u>Année 2025</u>:prémiere  année en </li>
+    </ul>
+    
+    <h4>Expérience professionnelle</h4>
+    <ul type="square">
+      <li>langages de programmation:HTML&CSS</li>
+      <li>spécialiste en informatique</li>
+      <li>excellent en algorithme</li>
+    </ul>
 
-/* Container */
-.cv-container {
-    max-width: 700px;
-    background: var(--card-bg);
-    border-radius: 30px 10px 30px 10px;
-    box-shadow: 0 12px 25px var(--shadow);
-    padding: 40px 35px;
-}
+    <h4>Langues</h4>
+    <ul type:"square">
+      <li>Français:parlé et écrit</li>
+      <li>Anglais:lire et ecrit</li>
+    </ul>
 
-/* Header */
-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
+    <h4>Centres d'intérets</h4>
+    <ul type:"square">
+      <li>Lecture</li>
+      <li>Sport</li>
+      <li>Jeux vidéo</li>
+    </ul>
+    
+  </body>
 
-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    color: var(--title-color);
-    margin-bottom: 5px;
-}
-
-header h3 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    color: var(--accent-color);
-    font-size: 18px;
-}
-
-/* Photo ronde */
-.header-photo {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 20px auto;
-    border: 4px solid var(--accent-color);
-}
-
-.header-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Sections */
-section { margin-bottom: 25px; }
-
-section h2 {
-    font-family: 'Playfair Display', serif;
-    color: var(--title-color);
-    font-size: 22px;
-    margin-bottom: 12px;
-    border-left: 5px solid var(--accent-color);
-    padding-left: 12px;
-}
-
-/* Cards pour infos */
-.card {
-    background: var(--pill-bg);
-    padding: 18px 25px;
-    border-radius: 25px;
-    margin-bottom: 15px;
-    box-shadow: 0 5px 15px var(--shadow);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px var(--shadow);
-}
-
-/* Contact pill / rounded rectangle */
-.contact-pill {
-    display: inline-block;
-    background: var(--pill-bg);
-    color: var(--text-color);
-    padding: 10px 18px;
-    border-radius: 50px;
-    font-weight: 500;
-    margin: 5px 5px 0 0;
-    transition: background 0.3s;
-}
-
-.contact-pill:hover { background: var(--pill-hover); }
-
-/* Qualités / Tags */
-.tag {
-    display: inline-block;
-    background: var(--accent-color);
-    color: white;
-    padding: 7px 15px;
-    border-radius: 20px;
-    margin: 5px 5px 0 0;
-    font-size: 14px;
-    font-weight: 500;
-    transition: background 0.3s;
-}
-
-.tag:hover { background: #c38952; }
-
-/* Portfolio / Loisirs */
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.portfolio-item {
-    background: var(--pill-bg);
-    border-radius: 20px;
-    padding: 15px 20px;
-    flex: 1 1 120px;
-    text-align: center;
-    transition: transform 0.2s;
-}
-
-.portfolio-item:hover { transform: translateY(-3px); }
-
-/* Listes simples */
-ul { padding-left: 20px; }
-
-ul li { margin-bottom: 8px; }
-
-/* Responsive */
-@media (max-width: 750px){
-    .cv-container { padding: 30px 20px; }
-}
-</style>
-
-</head>
-<body>
-
-<div class="cv-container">
-
-    <header>
-        <div class="header-photo">
-            <img src="c:\Nouveau dossier\image pour mon portfolio.jpg" alt="Photo Lavany Felicie">
-        </div>
-        <h1>NOMENJANAHARY</h1>
-        <h3>Lavany Felicie</h3>
-    </header>
-
-    <!-- 1. Informations personnelles -->
-    <section>
-        <h2>Informations personnelles</h2>
-        <div class="card">
-            <strong>Date de naissance :</strong> 14 décembre 2006<br>
-            <strong>Lieu :</strong> Soatsihadino, Fianarantsoa<br>
-            <strong>Nationalité :</strong> Malgache
-        </div>
-    </section>
-
-    <!-- 2. Profil -->
-    <section>
-        <h2>Profil</h2>
-        <div class="card">
-            Jeune femme sérieuse, motivée, ponctuelle et responsable,
-            avec une forte volonté d’apprendre et de réussir dans le domaine
-            du management, des innovations et des technologies.
-        </div>
-    </section>
-
-    <!-- 3. Formation -->
-    <section>
-        <h2>Formation</h2>
-        <div class="card">
-            <strong>Baccalauréat – Lauréat (2025)</strong><br>
-            Lycée Saint Joseph Ouvrier Tanambao
-        </div>
-        <div class="card">
-            <strong>Étudiante actuelle</strong><br>
-            EMIT – École de Management des Innovations et Technologies
-        </div>
-    </section>
-
-    <!-- 4. Contact -->
-    <section>
-        <h2>Contact</h2>
-        <span class="contact-pill">📍 Lot IB 357/3611 Tanambao 301</span>
-        <span class="contact-pill">📞 038 40 254 87</span>
-        <span class="contact-pill">📞 033 67 520 98</span>
-        <span class="contact-pill">✉️ nomenafelicie@gmail.com</span>
-    </section>
-
-    <!-- 5. Langues -->
-    <section>
-        <h2>Langues</h2>
-        <div class="tag">Malagasy (maternelle)</div>
-        <div class="tag">Français (moyen)</div>
-        <div class="tag">Anglais (débutant)</div>
-    </section>
-
-    <!-- 6. Qualités -->
-    <section>
-        <h2>Qualités</h2>
-        <div class="tag">Sérieuse</div>
-        <div class="tag">Motivée</div>
-        <div class="tag">Ponctuelle</div>
-        <div class="tag">Responsable</div>
-    </section>
-
-    <!-- 7. Loisirs / Portfolio -->
-    <section>
-        <h2>Loisirs / Portfolio</h2>
-        <div class="portfolio">
-            <div class="portfolio-item">Lecture</div>
-            <div class="portfolio-item">Sport</div>
-            <div class="portfolio-item">Musique</div>
-        </div>
-    </section>
-
-</div>
-</body>
 </html>
