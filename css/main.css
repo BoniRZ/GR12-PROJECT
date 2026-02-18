@@ -1,0 +1,129 @@
+body{
+margin:0;
+margin-top:10px ;
+font-family: 'Poppins',sans-serif;
+background: linear-gradient(135deg,#0A192F,#112240);
+color: #E6F1FF;
+}
+
+header{
+display: flex;
+justify-content: space-around;
+height: 75px;
+padding: 12px;
+background: linear-gradient(135deg,#0F172A ,#1E3A8A,#2563EB);
+border-radius: 12px;
+justify-content: space-around;
+align-items: center;
+box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+margin-bottom: 50px;}
+
+header a{
+color: #E6F1FF;}
+
+h1{
+text-align: center;
+color: #E6F1FF;
+font-family: 'Orbitron',sans-serif;}
+
+header a{
+text-decoration: none;
+margin-left: 20px;
+transition: 0.3s;
+color: #E6F1FF;
+}
+
+header a:hover{
+color: #00BFFF;
+}
+
+#about{
+padding: 24px ;
+height: 124px;
+background:linear-gradient(135deg,#0F172A ,#1E3A8A,#2563EB);
+border-radius: 15px;}
+
+#about h1{
+    text-align:center;
+    color:#E6F1FF ;
+    font-style: italic;
+    font-size:24px;
+}
+
+hr{
+border:none;
+width: 22%;
+height:9px;
+justify-self: center;
+border-radius: 3px;
+box-shadow: 4,2,0,0;
+background: linear-gradient(135deg,#0F172A ,#1E3A8A,#2563EB);}
+
+#about span{
+font-size: 28px;
+color: #E6F1FF;
+}
+
+#about p{
+text-align: center;
+color: #E6F1FF;}
+
+#team{
+margin-top: 25px;
+background:linear-gradient(135deg,#0F172A ,#1E3A8A,#2563EB);
+padding: 15px;
+border-radius: 12px;
+text-align: center;
+justify-items: center;
+}
+
+
+#card_container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    padding: 20px 40px 40px;
+    
+}
+.card{
+background: rgba(17,34,64,0.9);
+color: white;
+padding: 20px;
+border: 0 4px 15px rgba(0,191,255,0.1);
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 4px 15px rgba(0,191,255,0.1);
+transition: 0.3s ease;
+}
+
+.card:hover{
+transform: translateY(-8px);
+box-shadow: 0 8px 25px rgba(0, 191,255,0.4);}
+
+img{
+width: 22px;
+height: 22px;
+border-radius:12px ;
+}
+.card h2{
+font-family: 'Orbitron',sans-serif;
+font-size: 1.2rem;
+margin-bottom:#00BFFF;}
+
+.card p{
+font-size: 0.9 rem;
+color: #8892B0;
+margin-bottom:15px;
+}
+.card button{
+background: linear-gradient(90deg,#1E3A8A,#2563EB);
+border: none;
+padding: 8px 15px;
+border-radius: 6px;
+color: white;
+cursor: pointer;
+transition:0.3s;
+}
+
+.card button:hover{
+background: linear-gradient(90deg,#2563EB,#00BFFF);}
