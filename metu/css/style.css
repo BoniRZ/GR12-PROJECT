@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+}
+
+#img{
+   width: auto;
+   height: 150px;
+   border-radius: 12px;
+}
+
+.title{
+    color: chartreuse;
+}
+
+
