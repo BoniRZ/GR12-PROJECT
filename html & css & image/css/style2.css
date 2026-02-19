@@ -1,0 +1,62 @@
+.titre{
+    display: flex;
+    
+}
+#head{
+    margin-left: 50px;
+
+}
+table{
+    border-collapse: collapse;
+    margin-left: 50px;
+    width: 300px;
+    height: 100px;
+    
+}
+th,td{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: gray;
+    color: white;
+}
+tr {
+    background-color: #ece2e2;
+}
+
+.petit{
+   width: ;
+   height: 635px;
+   background-color: rgb(105, 104, 104);
+   padding-right: 12%;
+   padding-left: 5%;
+   margin-left: 50px;
+}
+#water{
+    color: rgb(248, 243, 243);
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 250px;
+    border-radius: 30%;
+    margin-bottom: 5%;
+    margin-top: 20px;
+
+}
+.maison{
+    height: 518px;
+}
+#puce{
+    border: 3px solid grey;
+    height: 630px;
+
+}
+#type{
+    margin-left: 50px;
+}
+span{
+    color:blue;
+}
